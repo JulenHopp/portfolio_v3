@@ -1,0 +1,126 @@
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1b1c20;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  display: flex;
+  height: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  flex-grow: 1;
+  justify-content: flex-end; 
+}
+
+.nav-item,
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.nav-item a,
+.active a{
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.nav-item a:hover{
+  transform: scale(1.1);
+}
+
+.active a {
+  border-bottom: 2px solid #0088a9;
+  padding-bottom: 0.5rem;
+}
+
+.active a:hover {
+  cursor: default;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+  background-color: #edf0f1;
+}
+
+.nav-toggle {
+  display: none;
+  background-color: transparent;
+}
+
+.nav-toggle:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.nav-toggle:active{
+  transform: scale(0.9);
+}
+
+/* Estilos para pantalla pequeña */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .logo-hamburger-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-list.show {
+    display: flex;
+
+  }
+
+  .nav-item,
+  .active{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}
