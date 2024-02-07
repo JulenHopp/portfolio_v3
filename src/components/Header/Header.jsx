@@ -1,8 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
-
-import logo from "./images/logo.png";
+import logo from "/src/assets/images/logos/logo.png"
 
 export default function Header() {
 	const [isOpen, setIsOpen] = React.useState(false);

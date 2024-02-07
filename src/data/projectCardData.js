@@ -1,6 +1,7 @@
-const proyectCardData = [
+const projectCardData = [
     { // Proyecto 1
-        image: 'https://via.placeholder.com/150',
+        id: 1,
+        image: '/src/assets/images/projects/prueba1.png',
         title: 'Proyecto 1',
         description: 'Descripción del proyecto 1',
         tools: ['React', 'Node', 'MongoDB'],
@@ -16,7 +17,8 @@ const proyectCardData = [
         ]    
     },
     { // Proyecto 2
-        image: 'https://via.placeholder.com/150',
+        id: 2,
+        image: '/src/assets/images/projects/prueba2.jpeg',
         title: 'Proyecto 1',
         description: 'Descripción del proyecto 1',
         tools: ['React', 'Node', 'MongoDB'],
@@ -33,4 +35,4 @@ const proyectCardData = [
     },
 ]
 
-export default proyectCardData;
+export default projectCardData;
