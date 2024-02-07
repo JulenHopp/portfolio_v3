@@ -1,6 +1,7 @@
 .project-card-container{
-    width: 80%;
-    height: 20rem;
+    width: auto;
+    max-width: 50rem;
+    height: auto;
     display: grid;
     grid-template-columns: 45% 55%;
     background-color: white;
@@ -9,23 +10,28 @@
     color: black;
 }
 
-.image-container{
-    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
-
+.image-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    border-radius: 1rem 0 0 1rem;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%);
 }
 
-.image-container img{
-    width: 100%;
+.project-image {
+    width: 98%;
     height: 100%;
     object-fit: cover;
     border-radius: 1rem 0 0 1rem;
-    /* border: 1px solid black; */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%);
 }
 
+
 .info-container{
+    position: relative;
     padding: 1rem;
 }
 

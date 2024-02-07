@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 70%;
+    max-width: 40rem;
     text-align: left;
     position: relative;
-    top: -4rem;
+    top: -8rem;
 }
 
 .name{
@@ -27,8 +27,8 @@
 
 @media screen and (max-width: 768px){
     .data-container{
-        width: 100%;
-        padding: 8rem 0;
+        top: 0;
+        max-width: 100%;
     }
     
 }
