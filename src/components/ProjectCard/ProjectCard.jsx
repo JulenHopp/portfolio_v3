@@ -13,12 +13,12 @@ export default function ProjectCard({props}) {
         </div>
         <div className="info-container">
           <div className="title-description-container">
-            <h2>{props.title}</h2>
-            <p>{props.description}</p>
+            <h2 className="title">{props.title}</h2>
+            <p className="description">{props.description}</p>
           </div>
           <div className="tech-stack-container">
-            <h3>Tech Tools: {props.tools.map((tool) => (<span>{tool}</span>)) }</h3>
-            
+            {/* <h3>Tech Tools: {props.tools.map((tool) => (<span>{tool}</span>)) }</h3> */}
+            {props.tools.map((tool) => (<span className="technology">{tool}</span>))}
           </div>
           <div className="links-container">
             {props.links.map((link) => (<LinkedButton props={link}/>)) }

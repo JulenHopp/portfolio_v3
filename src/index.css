@@ -27,9 +27,9 @@ a {
 
 body {
   margin: 0;
+  padding: 8rem 3rem 3rem 3rem;
   display: flex;
   place-items: center;
-  margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -41,16 +41,22 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 0.15rem solid white;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
+  background-color:transparent;
   transition: border-color 0.25s;
+  margin: 0 0.5rem;
+  color: white;
 }
 
+button:hover{
+  background-color: white;
+  color: #343434;
+  cursor: pointer;
+}
 
 @media (prefers-color-scheme: light) {
 

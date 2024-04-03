@@ -4,10 +4,10 @@ import './HomeComponent.css';
 export default function HomeComponent({props}) {
   return (
     <>
-      <div className="data-container">
-        <h1 className='name'>{props.title}</h1>
-        <h2 className='short-description'>{props.shortDescription}</h2>
-        <p className='description'>{props.description}</p>
+      <div className="presentation-data-container">
+        <h1 className='presentation-name'>{props.title}</h1>
+        <h2 className='presentation-short-description'>{props.shortDescription}</h2>
+        <p className='presentation-description'>{props.description}</p>
       </div>
     </>
   )

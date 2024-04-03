@@ -13,7 +13,7 @@ const projectCardData = [
                 url: 'www.google.com'
             },
             {
-                name: 'Demo',
+                name: 'Live Demo',
                 url: 'www.google.com'
             }
         ]    
@@ -21,19 +21,16 @@ const projectCardData = [
     { // Proyecto 2
         id: 2,
         image: '/src/assets/images/projects/prueba2.jpeg',
-        title: 'Proyecto 1',
-        description: `Lest make a description of the project 1, this is a test to 
-                    see how it looks like in the card. a longer description is needed 
-                    to see how it looks like in the card.`,
-        tools: ['React', 'Node', 'MongoDB'],
+        title: 'Automated Plant Care System',
+        description: `Implemented an ESP32-based system with environmental 
+                    sensors, utilizing JavaScript, SQL, and C++. Automated 
+                    irrigation for optimal plant maintenance. Expertise in 
+                    circuit design and data analysis.`,
+        tools: ['React', 'Node.js', 'SQL', 'C++'],
         links: [
             {
                 name: 'Code',
-                url: 'www.google.com'
-            },
-            {
-                name: 'Demo',
-                url: 'www.google.com'
+                url: 'https://github.com/JulenHopp/PlantGPT.git'
             }
         ]    
     },

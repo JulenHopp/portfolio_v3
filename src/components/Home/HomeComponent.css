@@ -1,28 +1,29 @@
-.data-container{
+.presentation-data-container{
     display: flex;
     flex-direction: column;
     height: 100%;
     max-width: 40rem;
     text-align: left;
     position: relative;
-    top: -8rem;
+    top: 0;
 }
 
-.name{
+.presentation-name{
     font-weight: bold;
     font-size: 2.8rem;
     color: white;
 }
 
-.short-description{
+.presentation-short-description{
     font-size: 1.5rem;
     color: rgba(0, 136, 169, 1)
 }
 
-.description{
+.presentation-description{
     margin-top: 1rem;
     font-size: 1.65rem;
     color: white;
+    text-align: left;
 }
 
 @media screen and (max-width: 768px){
