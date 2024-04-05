@@ -17,7 +17,6 @@ function App() {
       <div>
         <Header />
         <Routes>
-          {/*comentario*/}
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
