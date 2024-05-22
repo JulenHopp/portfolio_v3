@@ -1,14 +1,14 @@
 import React from 'react';
+import './Resume.css';
 import resumePDF from '/src/data/resume_JulenHoppenstedtMandiola.pdf';
+import ResumeComponent from '/src/components/Resume/RusumeComponent.jsx';
 
 
 export default function Resume() {
   return (
     <>
-      <div>
-        <div>
-          <iframe src="/src/data/resume_JulenHoppenstedtMandiola.pdf" width="100%" height="100%" title="Resume"/>
-        </div>
+      <div className='pdf-container'>
+        <ResumeComponent props={{resumePath: resumePDF}}/>
       </div>
     </>
   );

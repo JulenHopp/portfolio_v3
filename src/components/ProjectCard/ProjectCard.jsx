@@ -3,8 +3,6 @@ import LinkedButton from "./LinkedButton";
 import "./ProjectCard.css";
 
 export default function ProjectCard({props}) {
-
-  console.log(props.image);
   return (
     <>
       <div className="project-card-container">
