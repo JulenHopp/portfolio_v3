@@ -1,0 +1,27 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #0088a9;
+    padding: 2.5rem 3.75rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    height: 30rem;
+    color: white;
+}
+
+.contact-section {
+    margin-bottom: 5rem;
+}
+
+.contact-subTitle{
+    margin-bottom: 2rem;
+}
+.contact-detail {
+    margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-info {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    
+}

@@ -1,20 +1,17 @@
 import React from 'react';	
+import './ContactInfo.css';
 
 export default function ContactInfo() {
     return (
-        <>
-            <div>
-                <div>
-                    <h1>Contact Information</h1>
-                    <p>Phone: 555-555-5555</p>
-                    <p>Email: julen_hopp@hotmail.com</p>
-                </div>
-                <div>
-                    <h1>Online Presence</h1>
-                    <p>LinkedIn: linkedin.com/in/julenhopp</p>
-                    <p>Github: Github.com/julenHopp</p>
-                </div>
+        <div className="contact-info">
+            <div className="contact-section">
+                <h3 className="contact-title">Contact Information</h3>
+                <p className='contact-subTitle'>Feel free to reach out for collaborations or inquiries!</p>
+                <p className="contact-detail"><b>Phone:</b><br /> +52 (961) 117 3308</p>
+                <p className="contact-detail"><b>Email:</b><br /> jhm_e@outlook.com</p>
+                <p className="contact-detail"><b>LinkedIn:</b><br /> linkedin.com/in/julenhopp</p>
+                <p className="contact-detail"><b>GitHub:</b><br /> github.com/JulenHopp</p>
             </div>
-        </>
+        </div>
     );
 }

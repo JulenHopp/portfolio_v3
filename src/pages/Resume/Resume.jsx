@@ -1,7 +1,7 @@
 import React from 'react';
 import './Resume.css';
 import resumePDF from '/src/data/resume_JulenHoppenstedtMandiola.pdf';
-import ResumeComponent from '/src/components/Resume/RusumeComponent.jsx';
+import ResumeComponent from '/src/components/Resume/ResumeComponent.jsx';
 
 
 export default function Resume() {
