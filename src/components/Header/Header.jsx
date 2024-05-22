@@ -25,19 +25,27 @@ export default function Header() {
 				</div>
 				<ul className={`nav-list ${isOpen ? "show" : ""}`}>
 					<li className={currentPath === '/' ? 'active' : 'nav-item'}>
-						<Link to="/">Home</Link>
+						<div className="link-container">
+							<Link to="/">Home</Link>
+						</div>
 					</li>
 					<li className={currentPath === '/projects' ? 'active' : 'nav-item'}>
-						<Link to="/projects">Projects</Link>
+						<div className="link-container">
+							<Link to="/projects">Projects</Link>
+						</div>
 					</li>
 					<li className={currentPath === '/contact' ? 'active' : 'nav-item'}>
-						<Link to="/contact">Contact</Link>
+						<div className="link-container">
+							<Link to="/contact">Contact</Link>
+						</div>
 					</li>
 					<li className={currentPath === '/resume' ? 'active' : 'nav-item'}>
-						<Link to="/resume">Resume</Link>
+						<div className="link-container">
+							<Link to="/resume">Resume</Link>
+						</div>
 					</li>
 				</ul>
 			</nav>
-  	</header>
-  );
+  		</header>
+  	);
 }
