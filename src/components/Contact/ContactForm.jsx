@@ -18,7 +18,7 @@ const ContactForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        fetch('http://your-server.com/contact.php', {
+        fetch('http://julenhopp/backend/contact.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
