@@ -11,11 +11,10 @@ export default function ProjectCard({props}) {
         </div>
         <div className="info-container">
           <div className="title-description-container">
-            <h2 className="title">{props.title}</h2>
+            <h3 className="title">{props.title}</h3>
             <p className="description">{props.description}</p>
           </div>
           <div className="tech-stack-container">
-            {/* <h3>Tech Tools: {props.tools.map((tool) => (<span>{tool}</span>)) }</h3> */}
             {props.tools.map((tool) => (<span className="technology">{tool}</span>))}
           </div>
           <div className="links-container">

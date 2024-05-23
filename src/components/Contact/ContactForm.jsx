@@ -18,16 +18,16 @@ const ContactForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        fetch('http://julenhopp/backend/contact.php', {
+        fetch('http://julenhopp.com/backend/contact.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(formData)
         })
-        .then(response => response.text())
+        .then(response => response.json())
         .then(data => {
-            alert('Message sent successfully');
+            alert(data.message);
             setFormData({ name: '', email: '', message: '' });
         })
         .catch(error => {

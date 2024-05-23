@@ -1,3 +1,20 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh; /* take full viewport height */
+    justify-content: space-between;
+}
+
+.resume-container iframe {
+    flex-grow: 1; /* allow iframe to grow and take up remaining space */
+    margin-bottom: 1rem; /* add some space at the bottom */
+}
+
+.resume-container p {
+    flex-shrink: 0; /* prevent p from shrinking */
+    margin-left: 0.5rem; /* remove default margin */
+}
+
 .download-link{
     color: rgba(0, 136, 169, 1)
 }

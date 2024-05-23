@@ -1,12 +1,12 @@
 .project-card-container{
     width: auto;
-    max-width: 70rem;
+    max-width: 55rem;
     height: auto;
     display: grid;
     grid-template-columns: 45% 55%;
     background-color: #343434;
     border-radius: 1rem;
-    margin: 2rem;
+    margin: 3rem 2rem 0 2rem;
     color: white;
     align-items: center;
     justify-content: center;
@@ -58,11 +58,12 @@
 
 .title{
     text-align: center;
+    margin: 0 0 0.5rem 0;
 }
 
 .description{
     text-align: center;
-    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
 }
 
 .tech-stack-container{
@@ -70,13 +71,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0.5rem;
+
 }
 
 .technology{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-weight: 600;
-    margin: 0 0.5rem;
+    margin: 0 1rem 0.5rem 1rem;
     color: white;
 }
 
