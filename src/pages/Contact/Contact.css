@@ -2,7 +2,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: calc(100vh - 6rem); /* subtract the padding of the outer container */
     padding: 0 4rem;
     grid-template-columns: 55% 45%;
 }

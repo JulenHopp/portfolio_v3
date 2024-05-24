@@ -1,0 +1,8 @@
+.home-container{
+    height: calc(100vh - 6rem);
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 3rem;
+}

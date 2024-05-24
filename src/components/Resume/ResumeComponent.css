@@ -1,8 +1,7 @@
 .resume-container {
     display: flex;
     flex-direction: column;
-    height: 90vh; /* take full viewport height */
-    justify-content: space-between;
+    height: calc(100vh - 6rem); /* subtract the padding of the outer container */
 }
 
 .resume-container iframe {
