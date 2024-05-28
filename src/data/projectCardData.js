@@ -1,6 +1,23 @@
 const projectCardData = [
     {
         id: 1,
+        image: '/src/assets/images/projects/tare.png',
+        title: 'TARE.STUDY',
+        description: `Developed a smart platform to support teachers by visualizing 
+                      classroom performance, generating personalized lesson plans, 
+                      and managing student data. Utilized React for a responsive 
+                      frontend, Node.js for backend operations, and integrated 
+                      AI with OpenAI's GPT-3.5.`,
+        tools: ['React', 'Node.js', 'Express', 'MongoDB', 'OpenAI GPT-3.5'],
+        links: [
+            {
+                name: 'Code',
+                url: 'https://github.com/JulenHopp/tare.study.git'
+            }
+        ]    
+    },
+    {
+        id: 2,
         image: '/src/assets/images/projects/plantCareProject.jpeg',
         title: 'Automated Plant Care System',
         description: `Implemented an ESP32-based system with environmental 
