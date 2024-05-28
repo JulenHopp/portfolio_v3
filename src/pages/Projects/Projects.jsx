@@ -5,12 +5,10 @@ import ProjectCard from '/src/components/ProjectCard/ProjectCard.jsx';
 
 export default function Projects() {
   return (
-    <>
-      <div className='projects-cards-container'>
-        {projectCardData.map((project) => {
-          return (<ProjectCard key={project.id} props={project} />)
-        })}
-      </div>
-    </>
+    <div className='projects-cards-container'>
+      {projectCardData.map((project) => (
+        <ProjectCard key={project.id} props={project} />
+      ))}
+    </div>
   );
 }
